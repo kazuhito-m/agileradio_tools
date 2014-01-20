@@ -37,7 +37,7 @@ echo "Mp3 encoding done."
 # Tagの書き込み (yearが効かないなど、いくつか不思議な項目がある)
 # 定義はこちらを参照。http://wikiwiki.jp/qmp/?Plugins%2FLibraries%2FTag%20Editors%2FID3%20Tags#x9ba4c18
 
-eyeD3 --to-v2.4 --set-encoding=utf8 --artist="${ARTIST}" --album="${TITLE_BASE}" --title="${FULL_TYTLE}" --year=${MAKE_YEAR} --publisher=publisher --comment=jp:abc:"${TITLE_COMMENT}" --add-image=./thema/agileradio.jpg:OTHER:agileradio.jpg  --set-user-url-frame="Description:${SITE_URL}" --set-user-text-frame="Description:${ARTIST}" --genre=radio --set-text-frame=TPE2:"${A_ARTIST}" --set-text-frame=TCOM:"${COMMPOSER}" --set-text-frame=TDAT:"${MAKE_YEAR}" --set-text-frame=TCOP:"${A_ARTIST}" --set-text-frame=TENC:lame ${RESULT_FILE}
+eyeD3 --to-v2.4 --set-encoding=utf8 --artist="${ARTIST}" --album="${TITLE_BASE}" --title="${FULL_TYTLE}" --year=${MAKE_YEAR} --publisher=publisher --comment=jp:abc:"${TITLE_COMMENT}" --add-image=./agileradio.jpg:OTHER:agileradio.jpg  --set-user-url-frame="Description:${SITE_URL}" --set-user-text-frame="Description:${ARTIST}" --genre=radio --set-text-frame=TPE2:"${A_ARTIST}" --set-text-frame=TCOM:"${COMMPOSER}" --set-text-frame=TDAT:"${MAKE_YEAR}" --set-text-frame=TCOP:"${A_ARTIST}" --set-text-frame=TENC:lame ${RESULT_FILE}
 
 # 仕上げ。リネーム
 mv "${RESULT_FILE}" "${NAME_BASE}_ite${ITE_NO}.mp3"
