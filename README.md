@@ -1,7 +1,7 @@
-agileradio_tools
+Agileradio Tools
 ================
 
-# What'S this ?
+# What's this ?
 
 AgileRadio (http://www.agileradio.info/) working scripts and more. 
 
