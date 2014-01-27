@@ -14,7 +14,7 @@ RESULT_FILE=${1%.*}.mp3
 # 処理
 
 # lameに「mp3の圧縮レベル」を渡してMAXを切るまで変換し続ける
-for level in $(seq 7 10); do
+for level in $(seq 5 10); do
 	echo "Try encoding Level ${level}"
 	# 変換
 	lame -V ${level} ${1}
