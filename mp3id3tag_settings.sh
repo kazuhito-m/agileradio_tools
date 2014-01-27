@@ -1,10 +1,11 @@
 export NAME_BASE='agileradio'
-export ITE_NO='062'
+export ITE_NO='063'
 export TITLE_BASE='アジャイルラジオ'
-export ARTIST='土屋 秀光 , 山根 英次'
+# export ARTIST='土屋 秀光 , 山根 英次'
+export ARTIST='西 丈善 , 東 秀和 , 松山 竜蔵'
 export A_ARTIST="${TITLE_BASE}実行委員会"
 export MAKE_YEAR='2014'
 export FULL_TYTLE="${TITLE_BASE} ite-${ITE_NO}"
-export TITLE_COMMENT="${FULL_TYTLE} 2014/01/22 配信分"
+export TITLE_COMMENT="${FULL_TYTLE} 2014/01/29 配信分"
 export SITE_URL='http://www.agileradio.info'
 export COMMPOSER='三浦 一仁 ( @kazuhito_m )'
