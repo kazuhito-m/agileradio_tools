@@ -7,7 +7,7 @@
 # 定数
 
 # mp3のサイズの限界		
-MAX_MP3_SIZE=`expr 24 \* 1024 \* 1024`
+MAX_MP3_SIZE=`expr 25 \* 1024 \* 1024`
 # 結果ファイル
 RESULT_FILE=${1%.*}.mp3
 
